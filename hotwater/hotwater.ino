@@ -8,7 +8,7 @@ Rodney Osodo ENM221-0091/2017
 
 float sensorValue = 0, capacity = 0;  //Variable to store the value from the sensor
 int red_led_pin = 10, green_led_pin=11, blue_led_pin=12, sensorPin = A0;  //Pins for leds
-int heater = 13, temperature_pin = 3, level_switch_pin = 4, temperature, level_switch;
+int heater = 13, temperature_pin = 4, level_switch_pin = 3, temperature, level_switch;
 
 void setup() {
   // put your setup code here, to run once:
